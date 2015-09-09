@@ -1,0 +1,569 @@
+﻿<!DOCTYPE html>
+{% load menu %}
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+    <title>Huseyin Duz</title>
+    <!-- BOOTSTRAP CORE CSS -->
+    <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet"/>
+    <!-- ION ICONS STYLES -->
+    <link href="{{ STATIC_URL }}css/ionicons.css" rel="stylesheet"/>
+    <!-- FONT AWESOME ICONS STYLES -->
+    <link href="{{ STATIC_URL }}css/font-awesome.css" rel="stylesheet"/>
+    <!-- FANCYBOX POPUP STYLES -->
+    <link href="{{ STATIC_URL }}js/source/jquery.fancybox.css" rel="stylesheet"/>
+    <!-- STYLES FOR VIEWPORT ANIMATION -->
+    <link href="{{ STATIC_URL }}css/animations.min.css" rel="stylesheet"/>
+    <!-- CUSTOM CSS -->
+    <link href="{{ STATIC_URL }}css/style-blue.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}css/hus.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ STATIC_URL }}js/lightbox/css/lightbox.css"/>
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <!--slider menu css-->
+    {% block script %}
+
+    {% endblock %}
+
+</head>
+<body data-spy="scroll" data-target="#menu-section">
+
+<!--MENU SECTION START-->
+<div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home">
+                Hüseyin Düz
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="#services">Başlarken</a></li>
+                <!--<li><a href="#pricing">PRICING</a></li>-->
+                <li><a href="#work">Unutmamak Gerek</a></li>
+                <!--<li><a href="#team">TEAM</a></li>
+                <li><a href="#grid">GRID</a></li>-->
+                <li><a href="#contact">Ulaşım</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!--MENU SECTION END-->
+<!--HOME SECTION START-->
+
+
+<div id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">
+                <div id="carousel-slider" data-ride="carousel" class="carousel slide  animate-in"
+                     data-anim-type="fade-in-up">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h3>
+                                Linux
+                            </h3>
+
+                            <p>
+                                <img src="{{ STATIC_URL }}img/linux.png">
+                                1991 yılında Linus Torvalds tarafından geliştirilmeye başlanan işletim
+                                sistemi çekirdeğidir. CANDIR...
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                django
+                            </h3>
+
+                            <p>
+                                <img src="{{ STATIC_URL }}img/dj.png">
+                                Python dilinin resmi olarak desteklediği web çatısıdır.</br>
+                                ACAYİP BİŞEY...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 scroll-me">
+                <p>
+                    başarı için çalışmak kadar gerekli olan birbaşka şey de MERAK tır
+                </p>
+
+                <div class="social">
+                    <a href="https://www.facebook.com/huseyinduz.hotmail.com.tr" target="_blank"
+                       class="btn button-custom btn-custom-one"><i class="fa fa-facebook "></i></a>
+                    <a href="https://www.linkedin.com/pub/h%C3%BCseyin-d%C3%BCz/85/b04/a6" target="_blank"
+                       class="btn button-custom btn-custom-one"><i class=" fa fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UCHJSnYe82Wi12WcsjJLRCRA"
+                       class="btn button-custom btn-custom-one" target="_blank"><i class="fa fa-youtube "></i></a>
+                    <a href="#" class="btn button-custom btn-custom-one"><i class="fa fa-github "></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--HOME SECTION END-->
+<!--SERVICE SECTION START-->
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<section id="services">
+    <div class="container">
+        <div class="row text-center header">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animate-in" data-anim-type="fade-in-up">
+                <h3>Başlarken</h3>
+                <hr/>
+            </div>
+        </div>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+            <a data-toggle="modal" data-target="#hakkimdamodal">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="services-wrapper">
+                        <i class="ion-document"></i>
+
+                        <h3>Hakkımda</h3>
+
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Herkes kadar dünyalı bi zaatım, zamanının büyük kısmını
+                            notebook umda geçiren biriyim. Neden
+                            insanlar sitelerinde yada başka ....</p>
+
+                    </div>
+                </div>
+            </a>
+            <!--hakkımda modal başlangıç -->
+            <div class="modal fade" id="hakkimdamodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="hushusmodal-content">
+                        <div class="husmodal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h4 class="husmodal-title" id="myModalLabel">Hakkımda</h4>
+                        </div>
+                        <div class="husmodal-body">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Herkes kadar dünyalı bi zaatım, zamanının büyük kısmını
+                                notebook umda geçiren biriyim. Neden
+                                insanlar sitelerinde yada başka .....</p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yerlerinde hakkımda diye bir alan açar, anlamış
+                                değilim.Sanırım
+                                böbürlenerek başarılarını anlatmayı
+                                seviyor insanlar. Eh okadar başarılı olanların anlatması kadar doğal bir durum yok
+                                sanırım.
+                            </p>
+                            </br>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bende adettendir diye birde siteninde görünümüne uygun
+                                olduğu için ekledim.
+                                Kafakağıdımda bir doğum tarihim var tabiki, yolun yarısının az altında. Net rakam verip
+                                deşifre etmenin bir anlamı yok bence. Allahın bana emanet ettiği, cok sevdiğim iki
+                                varlık var
+                                eşim ve oğlum. İşletme bölümünü bitirdim, askerlik dışında hiç işime yaramadı.
+                                he bir de hayat öğretisinin belirli bir yüzdeliğini oluşturdu o kadar. yaklaşık 100.
+                                site
+                                denemem de sanırım bu tasarımı yayımlayacağım.Şu an Desmer Bilgi ve İletişim Hizmetlerin
+                                de
+                                birim yönetici olarak görev yapyorum. Güzel insanlardan oluşan ekipler ile çalışıyorum.
+                                bu konuda şanslı olduğum bir gerçek.</p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bu siteyi neden açtığımdan tam olarak emin değilim.
+                                önceliğim
+                                notlarımı tutmak, fırsat buldukça yazacağımı düşünüyorum. fırsat bulabilirmiyim bunu
+                                şimdilik düşünmüyorum
+
+                            </p>
+
+                            bu kadar yeteli sanırım.....
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a data-toggle="modal" data-target="#linuxmodal">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="services-wrapper">
+                        <i class="ion-android-sad"></i>
+
+                        <h3>Linux</h3>
+
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aslında linux üzerine yazılacak o kadar çok şey varki.
+                            genel olarak ; işletim sistemi çekirdeğidir. bu çekirdek üzerine yazılmış bir çok işletim
+                            sist...</p>
+
+                    </div>
+                </div>
+            </a>
+            <!--linux modal başlangıç -->
+            <div class="modal fade" id="linuxmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="hushusmodal-content">
+                        <div class="husmodal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h4 class="husmodal-title" id="myModalLabel">Linux</h4>
+                        </div>
+                        <div class="husmodal-body">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aslında linux üzerine yazılacak o kadar çok şey varki.
+                                genel olarak ; işletim sistemi çekirdeğidir. bu çekirdek üzerine yazılmış bir çok
+                                işletim
+                                sistemi vardır. En bilineni sanırım google nin sahip olduğu mobil işletim sistemi
+                                android dir.
+                                masaustu ve notebooklar içinde debian veya ubuntu diyebiliriz.linus diye bi abinin
+                                sadece merak
+                                uzerine yazmaya başladığı kodlar bütünü. 90 ların başında yazmaya başlamış ve sonra bu
+                                sistem üzerinde dünya değiştirmiştir.
+                                diğer ayrıntılar internette bulunabilinir.</p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                aslında bu abiyle şimdi karşılaşsan soracağım ilk soru heralde şey olurdu. ya bilader
+                                dünyayı değiştirdin
+                                bizimde başımızı birton belaya soktun ne hissediyorsun.
+                                cevabını hakikatten merak ediyorum.belki bu soruyu birileri sormuş ve cevabını almıştır
+                                bi bakmak lazım.
+
+                            </p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                sorulması gereken farklı sorularda var. mesela bu adamı bu meraka iten şey neydi.
+                                niye bu tarz adamlar üniversitelerini bitirmiyor. amerikanın havasından mı, suyundanmı.
+                                cok mu zekisiniz, yoksa hastamısınız. gibi, gibi, gibi ...
+
+                            <p>
+                                yakalayım bunlardan birini, kesin soracam bu sorulardan bi kaçtane.
+                            </p>
+
+                            </p>
+                            konu ile alakalı değil ama bir film tavsiyesi. eski bir film " Silikon vadisi korsanları"
+                            kesinlikle
+                            tavsiye ederim
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a data-toggle="modal" data-target="#djangomodal">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="services-wrapper">
+                        <i class="ion-clipboard"></i>
+
+                        <h3>Django</h3>
+
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python proglama dili ile yazılmış bir web çatısı. yani web
+                            proglamayı kolaylaştıran bir dil
+                            kullanımı kolay hiçbir dil bilmenize gerek yok ...</p>
+                    </div>
+                </div>
+            </a>
+            <!--django modal başlangıç -->
+            <div class="modal fade" id="djangomodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="hushusmodal-content">
+                        <div class="husmodal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h4 class="husmodal-title" id="myModalLabel">Django</h4>
+                        </div>
+                        <div class="husmodal-body">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python proglama dili ile yazılmış bir web çatısı. yani web
+                                proglamayı kolaylaştıran bir dil
+                                kullanımı kolay hiçbir dil bilmenize gerek yok ...</p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yani biz bilmiyorduk, aslında sadece python unun
+                                varlığından ve ozellikle eski pardus ta
+                                fazlaca kullanıldığını biliyorduk, o kadar. ama djangonun varlığından habersizdik.
+                                bu arada microsoft teknolojilerinden bir kaçı ile yazmaya devam ediyorduk. Fakat başka
+                                bir dilde geliştirme yapmamız gerektiği kanısına vardık
+                                , sanırım microsoft bizi sevmemişti,sürkli sorun çıkartıyordu (bu arada hiçte kendimize
+                                bişey demiyoz, bakarmısınız koca kurumu kötüledim
+                                neyse belkide biz beceremedik.!alınmasınlar). sonra ekipce arayışa başladık. herkesin
+                                aklına ilk gelen javaydı tabi.
+                            </p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; araştır incele kitap vs, baktık ki bi bu java büyük
+                                abilerin işi bize göre değil.
+                                sonra gelsin django.bu arada googleye django yazıyosun ilk olarak film çıkıyo kafalar
+                                karışmasın o bizim konumuz değil.
+
+
+                            </p>
+
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sonra biraz arastırma, bir iki video. biz db de tablo
+                                olustur, kayıt ekle, kayıt cıkar felan bayağı biseyler yap
+                                maya basladık. sonra tabi db arayışı, onun için de PostgreSQL herkese tavsiye olunur.PG
+                                nin hikayesini daha sonra anlatıcam.ardından basit bi test.
+                                1.000.000 kayıdı hangisi daha çabuk getirecek.django, postgres, chrome üclüsü ciddi bir
+                                başarı sağladı ve biz başladık.
+                                biz derken arkadaşlar başladı ben hala onları geriden takip ediyorum...
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--django modal bitiş -->
+
+        </div>
+    </div>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+</section>
+<section id="work">
+    <div class="container">
+        <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3>Unutmamak Gerek</h3>
+                <hr/>
+            </div>
+        </div>
+        <div class="row" id="work">
+            <div class="col-md-4 work-wrapper">
+                <a data-toggle="modal" title="Image Title Goes Here"
+                   data-target="#linuxdosya" href="#linuxmenu">
+                    <img src="{{ STATIC_URL }}img/pengu.png" class="img-responsive img-rounded" alt=""/>
+                </a>
+            </div>
+            <div class="col-md-4 work-wrapper">
+                <a data-toggle="modal"
+                   data-target="#djangodosya" href="#djangomenu">
+                    <img src="{{ STATIC_URL }}img/djdosya.png" class="img-responsive img-rounded" alt=""/>
+                </a>
+            </div>
+            <div class="col-md-4 work-wrapper">
+                <a data-toggle="modal"
+                   data-target="#ivirzivirdosya" href="#ivirzivirmenu">
+                    <img src="{{ STATIC_URL }}img/ivirzivir.png" class="img-responsive img-rounded" alt=""/>
+                </a>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+<!--linux menu-icerik modeli başlangıç-->
+<div class="modal fade" id="linuxdosya" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="hushusmodal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+            <div class="modal-header"><h5>Linux</h5></div>
+            </br>
+            </br>
+            <ul id="sayfa">
+                {% linuxmenu %}
+            </ul>
+        </div>
+    </div>
+</div>
+<!--linux eğitim modal-->
+<div class="modal fade" id="linuxdersler" style="color: #000000">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            </br>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+            </div>
+            </br>
+            <div id="lxicerik" style="height: 500px; overflow: auto ; margin-left: 20px">
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+<!--linux menu-icerik modeli bitişi-->
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+<!--django menu-icerik modeli başlangıç-->
+
+<div class="modal fade" id="djangodosya" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="hushusmodal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+            <div class="modal-header"><h5>Django</h5></div>
+            </br>
+            </br>
+            <ul id="djsayfa">
+                {% djangomenu %}
+            </ul>
+        </div>
+    </div>
+</div>
+<!--linux eğitim modal-->
+<div class="modal fade" id="djangodersler" style="color: #000000">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            </br>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+            </div>
+            </br>
+            <div id="djicerik" style="height: 500px; overflow: auto ; margin-left: 20px">
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+<!--django menu-icerik modeli bitişi-->
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+<!--ıvırzıvır menu-icerik modeli başlangıç-->
+<div class="modal fade" id="ivirzivirdosya" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="hushusmodal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+            <div class="modal-header"><h5>İvirzivir</h5></div>
+            </br>
+            </br>
+            <ul id="ivirzivirsayfa">
+                {% ivirzivirmenu %}
+            </ul>
+        </div>
+    </div>
+</div>
+<!--linux eğitim modal-->
+<div class="modal fade" id="ivirzivirdersler" style="color: #000000">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            </br>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+            </div>
+            </br>
+            <div id="iicerik" style="height: 500px; overflow: auto ; margin-left: 20px">
+
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+
+
+<!--ıvırzıvır menu-icerik modeli bitis-->
+
+
+<!--CONTACT SECTION START-->
+<section id="contact">
+    <div class="container">
+        <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3>Contact Details </h3>
+                <hr/>
+            </div>
+        </div>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="contact-wrapper">
+                    <h3>Olmazsa Olmaz</h3>
+
+                    <p>
+                        içimiz dışımız sosyal ağ oldu. bunlar olmadan napıyoduk acep..
+                        hatırlayan beri gelsin
+                    </p>
+
+                    <div class="social-below">
+                        <a href="https://www.facebook.com/huseyinduz.hotmail.com.tr" target="_blank"
+                           class="btn button-custom btn-custom-two"> Facebook</a>
+                        <a href="https://www.linkedin.com/pub/h%C3%BCseyin-d%C3%BCz/85/b04/a6" target="_blank"
+                           class="btn button-custom btn-custom-two"> Linkedin</a>
+                        <a href="https://www.youtube.com/channel/UCHJSnYe82Wi12WcsjJLRCRA" target="_blank"
+                           class="btn button-custom btn-custom-two"> Youtube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="contact-wrapper">
+                    <h3>Bana Yazabilsiniz</h3>
+                    <h5>okuyup okumama konusunda soz yok</h5>
+                    <h4><strong>Email : </strong> huseyinduz@yandex.com </h4>
+
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="contact-wrapper">
+                    <h3>Adres : </h3>
+                    <h5>bu adrese bi uğrayın belki ordayımdır</h5>
+                    <h4>230/45 , New way Lane , </h4>
+                    <h4>United States</h4>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="{{ STATIC_URL }}js/jquery-2.1.1.min.js"></script>
+<!-- BOOTSTRAP SCRIPTS -->
+<script src="{{ STATIC_URL }}js/bootstrap.js"></script>
+<!-- EASING SCROLL SCRIPTS PLUGIN -->
+<script src="{{ STATIC_URL }}js/vegas/jquery.vegas.min.js"></script>
+<!-- VEGAS SLIDESHOW SCRIPTS -->
+<script src="{{ STATIC_URL }}js/jquery.easing.min.js"></script>
+<!-- FANCYBOX PLUGIN -->
+<script src="{{ STATIC_URL }}js/source/jquery.fancybox.js"></script>
+<!-- ISOTOPE SCRIPTS -->
+<script src="{{ STATIC_URL }}js/jquery.isotope.js"></script>
+<!-- VIEWPORT ANIMATION SCRIPTS   -->
+<script src="{{ STATIC_URL }}js/appear.min.js"></script>
+<script src="{{ STATIC_URL }}js/animations.min.js"></script>
+<!-- CUSTOM SCRIPTS -->
+<script src="{{ STATIC_URL }}js/custom.js"></script>
+<script src="{{ STATIC_URL }}js/hduz.js"></script>
+<script src="{{ STATIC_URL }}js/lightbox/js/lightbox.min.js"></script>
+</body>
+</html>

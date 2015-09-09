@@ -1,0 +1,5 @@
+pycharm ide ile hazırlanmıştır
+admin paneli
+kullanıcı adi:hus
+şifre:1
+email:hus@hus.com
